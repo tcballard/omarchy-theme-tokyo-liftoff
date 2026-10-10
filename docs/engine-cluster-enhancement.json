@@ -1,0 +1,1100 @@
+{
+  "source": {
+    "path": "source.jpeg",
+    "sha256": "3ccbd300ab2ceeda5df7c51cefb4bf3510c8001195bf137474b8ff425557492f",
+    "width": 1536,
+    "height": 1024,
+    "orientation": 1,
+    "profile": "srgb",
+    "channels": 3
+  },
+  "contract": {
+    "passes": 2,
+    "longestEdge": 8192,
+    "style": "Tokyo Liftoff: navy, lavender, pink, cyan, warm golden engines",
+    "detail": "AI reconstructed"
+  },
+  "attempts": [
+    {
+      "id": "p1-r1c1",
+      "core": [
+        0,
+        0,
+        512,
+        341
+      ],
+      "box": [
+        0,
+        0,
+        614,
+        409
+      ],
+      "pass": 1,
+      "masterDimensions": [
+        1536,
+        1024
+      ],
+      "sourceBox": [
+        0,
+        0,
+        614,
+        409
+      ],
+      "targetPath": "p1-r1c1-target.png",
+      "targetHash": "145d23d3246997bc2a6ffbbe0f845fcf78658e5f9a3ae33e0221e77f635d5e87",
+      "inputPath": "p1-r1c1-input.png",
+      "inputDimensions": [
+        614,
+        409
+      ],
+      "inputHash": "145d23d3246997bc2a6ffbbe0f845fcf78658e5f9a3ae33e0221e77f635d5e87",
+      "contextHash": "6226b4de1b7431df740fbf35855dd505a1549e015fdcb0c019acf70e1a16cbf2",
+      "prompt": "Image 1 is the complete original styled context: composition, exact engine geometry, atmospheric style, colour and lighting authority. Image 2 is the target: return its exact framing and geometry. Reconstruct plausible higher-resolution detail while preserving metal contours, engine-bell count, shapes, spacing, overlap, smoke lobes, luminous softness and focus falloff. Keep dark metal photographic and clouds softly atmospheric. No new rings, panel seams, hardware, sparks, shock diamonds, repeated texture, synthetic grain, halos, blanket sharpening or style drift. Clipped highlights remain smoothly clipped. Return ONLY image 2, the complete target crop, matching its entire framing and aspect ratio (614:409), without borders, reframing or returning the full scene. Use maximum practical supported native resolution. Enhance the existing image only.",
+      "tool": "built-in image_gen",
+      "requestedResolution": "maximum practical supported native resolution",
+      "status": "rejected",
+      "retryCount": 0,
+      "native": {
+        "path": "p1-r1c1-native.png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1924864,
+        "sha256": "83ee2b7a26b6ef04754103266d982e3983e71d5494a45c549c2cc9f672a6d47e"
+      },
+      "generatedAt": "2026-10-10T12:44:46.742Z",
+      "registration": {
+        "scale": 1.02,
+        "angle": 0.006981317007977318,
+        "tx": -3,
+        "ty": -2,
+        "score": 0.9852420722881633,
+        "variance": 2228.6683188176944,
+        "bound": true,
+        "bounds": {
+          "scale": [
+            0.98,
+            1.02
+          ],
+          "rotationDegrees": [
+            -0.4,
+            0.4
+          ],
+          "translation": [
+            3,
+            2
+          ]
+        },
+        "residual": 0.014757927711836705,
+        "method": "bounded global similarity NCC on blurred luminance; no local deformation"
+      },
+      "reason": "Registration reached conservative scale/translation bounds"
+    },
+    {
+      "id": "p1-r1c2",
+      "core": [
+        512,
+        0,
+        1024,
+        341
+      ],
+      "box": [
+        410,
+        0,
+        1126,
+        409
+      ],
+      "pass": 1,
+      "masterDimensions": [
+        1536,
+        1024
+      ],
+      "sourceBox": [
+        410,
+        0,
+        1126,
+        409
+      ],
+      "targetPath": "p1-r1c2-target.png",
+      "targetHash": "4f8bc659770917ed4b407b3a87e2534639f00b0315d5ff366f755b4af41b3031",
+      "inputPath": "p1-r1c2-input.png",
+      "inputDimensions": [
+        716,
+        409
+      ],
+      "inputHash": "4f8bc659770917ed4b407b3a87e2534639f00b0315d5ff366f755b4af41b3031",
+      "contextHash": "6226b4de1b7431df740fbf35855dd505a1549e015fdcb0c019acf70e1a16cbf2",
+      "prompt": "Image 1 is the complete original styled context: composition, exact engine geometry, atmospheric style, colour and lighting authority. Image 2 is the target: return its exact framing and geometry. Reconstruct plausible higher-resolution detail while preserving metal contours, engine-bell count, shapes, spacing, overlap, smoke lobes, luminous softness and focus falloff. Keep dark metal photographic and clouds softly atmospheric. No new rings, panel seams, hardware, sparks, shock diamonds, repeated texture, synthetic grain, halos, blanket sharpening or style drift. Clipped highlights remain smoothly clipped. Return ONLY image 2, the complete target crop, matching its entire framing and aspect ratio (716:409), without borders, reframing or returning the full scene. Use maximum practical supported native resolution. Enhance the existing image only.",
+      "tool": "built-in image_gen",
+      "requestedResolution": "maximum practical supported native resolution",
+      "status": "rejected",
+      "retryCount": 0,
+      "native": {
+        "path": "p1-r1c2-native.png",
+        "width": 1659,
+        "height": 948,
+        "bytes": 2126852,
+        "sha256": "29f3691cc0f7f6acc9179e74b39443bae2432ce9ec67c122382a89799c1962db"
+      },
+      "generatedAt": "2026-10-10T12:44:46.743Z",
+      "registration": {
+        "scale": 1.02,
+        "angle": -0.006981317007977318,
+        "tx": -2,
+        "ty": -2,
+        "score": 0.9892485891782067,
+        "variance": 2907.268514430553,
+        "bound": true,
+        "bounds": {
+          "scale": [
+            0.98,
+            1.02
+          ],
+          "rotationDegrees": [
+            -0.4,
+            0.4
+          ],
+          "translation": [
+            3,
+            2
+          ]
+        },
+        "residual": 0.010751410821793317,
+        "method": "bounded global similarity NCC on blurred luminance; no local deformation"
+      },
+      "reason": "Registration reached conservative scale/translation bounds"
+    },
+    {
+      "id": "p1-r1c3",
+      "core": [
+        1024,
+        0,
+        1536,
+        341
+      ],
+      "box": [
+        922,
+        0,
+        1536,
+        409
+      ],
+      "pass": 1,
+      "masterDimensions": [
+        1536,
+        1024
+      ],
+      "sourceBox": [
+        922,
+        0,
+        1536,
+        409
+      ],
+      "targetPath": "p1-r1c3-target.png",
+      "targetHash": "19294ca1f30dc6cdb10b29a6ff214870b8bd076f8543898239329633c506be90",
+      "inputPath": "p1-r1c3-input.png",
+      "inputDimensions": [
+        614,
+        409
+      ],
+      "inputHash": "19294ca1f30dc6cdb10b29a6ff214870b8bd076f8543898239329633c506be90",
+      "contextHash": "6226b4de1b7431df740fbf35855dd505a1549e015fdcb0c019acf70e1a16cbf2",
+      "prompt": "Image 1 is the complete original styled context: composition, exact engine geometry, atmospheric style, colour and lighting authority. Image 2 is the target: return its exact framing and geometry. Reconstruct plausible higher-resolution detail while preserving metal contours, engine-bell count, shapes, spacing, overlap, smoke lobes, luminous softness and focus falloff. Keep dark metal photographic and clouds softly atmospheric. No new rings, panel seams, hardware, sparks, shock diamonds, repeated texture, synthetic grain, halos, blanket sharpening or style drift. Clipped highlights remain smoothly clipped. Return ONLY image 2, the complete target crop, matching its entire framing and aspect ratio (614:409), without borders, reframing or returning the full scene. Use maximum practical supported native resolution. Enhance the existing image only.",
+      "tool": "built-in image_gen",
+      "requestedResolution": "maximum practical supported native resolution",
+      "status": "rejected",
+      "retryCount": 0,
+      "native": {
+        "path": "p1-r1c3-native.png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1889470,
+        "sha256": "730cafb53933880d5daed7db21c502575ffc8ac00c996f3bbcad50ac0715df15"
+      },
+      "generatedAt": "2026-10-10T12:44:46.743Z",
+      "registration": {
+        "scale": 1.02,
+        "angle": -0.006981317007977318,
+        "tx": -2,
+        "ty": -2,
+        "score": 0.9762608217622297,
+        "variance": 1955.9076361944883,
+        "bound": true,
+        "bounds": {
+          "scale": [
+            0.98,
+            1.02
+          ],
+          "rotationDegrees": [
+            -0.4,
+            0.4
+          ],
+          "translation": [
+            3,
+            2
+          ]
+        },
+        "residual": 0.023739178237770275,
+        "method": "bounded global similarity NCC on blurred luminance; no local deformation"
+      },
+      "reason": "Registration reached conservative scale/translation bounds"
+    },
+    {
+      "id": "p1-r2c1",
+      "core": [
+        0,
+        341,
+        512,
+        683
+      ],
+      "box": [
+        0,
+        273,
+        614,
+        751
+      ],
+      "pass": 1,
+      "masterDimensions": [
+        1536,
+        1024
+      ],
+      "sourceBox": [
+        0,
+        273,
+        614,
+        751
+      ],
+      "targetPath": "p1-r2c1-target.png",
+      "targetHash": "806a8fd6dbb8cf66b3de30c6b6610b4bddc31ea3940a550ee4fd490729ba6c97",
+      "inputPath": "p1-r2c1-input.png",
+      "inputDimensions": [
+        614,
+        478
+      ],
+      "inputHash": "806a8fd6dbb8cf66b3de30c6b6610b4bddc31ea3940a550ee4fd490729ba6c97",
+      "contextHash": "6226b4de1b7431df740fbf35855dd505a1549e015fdcb0c019acf70e1a16cbf2",
+      "prompt": "Image 1 is the complete original styled context: composition, exact engine geometry, atmospheric style, colour and lighting authority. Image 2 is the target: return its exact framing and geometry. Reconstruct plausible higher-resolution detail while preserving metal contours, engine-bell count, shapes, spacing, overlap, smoke lobes, luminous softness and focus falloff. Keep dark metal photographic and clouds softly atmospheric. No new rings, panel seams, hardware, sparks, shock diamonds, repeated texture, synthetic grain, halos, blanket sharpening or style drift. Clipped highlights remain smoothly clipped. Return ONLY image 2, the complete target crop, matching its entire framing and aspect ratio (614:478), without borders, reframing or returning the full scene. Use maximum practical supported native resolution. Enhance the existing image only.",
+      "tool": "built-in image_gen",
+      "requestedResolution": "maximum practical supported native resolution",
+      "status": "accepted",
+      "retryCount": 0,
+      "native": {
+        "path": "p1-r2c1-native.png",
+        "width": 1421,
+        "height": 1107,
+        "bytes": 2031603,
+        "sha256": "15ecf96f5d96aa84782c7b6d9e6b44dd3e58e73be76166128294dd04a5ef81fa"
+      },
+      "generatedAt": "2026-10-10T12:44:46.743Z",
+      "registration": {
+        "scale": 1.01,
+        "angle": 0,
+        "tx": 0,
+        "ty": -1,
+        "score": 0.9954690179244797,
+        "variance": 3450.28814695821,
+        "bound": false,
+        "bounds": {
+          "scale": [
+            0.98,
+            1.02
+          ],
+          "rotationDegrees": [
+            -0.4,
+            0.4
+          ],
+          "translation": [
+            3,
+            3
+          ]
+        },
+        "residual": 0.004530982075520273,
+        "method": "bounded global similarity NCC on blurred luminance; no local deformation"
+      },
+      "supportedFraction": 0.8568606640044704,
+      "mask": "p1-r2c1-mask.png",
+      "colorMatch": {
+        "method": "smooth 12×12 broad RGB mean-offset field; bilinear interpolation",
+        "maxOffset": 20
+      },
+      "feather": "20% of interior borders; normalized overlap with retained prior"
+    },
+    {
+      "id": "p1-r2c2",
+      "core": [
+        512,
+        341,
+        1024,
+        683
+      ],
+      "box": [
+        410,
+        273,
+        1126,
+        751
+      ],
+      "pass": 1,
+      "masterDimensions": [
+        1536,
+        1024
+      ],
+      "sourceBox": [
+        410,
+        273,
+        1126,
+        751
+      ],
+      "targetPath": "p1-r2c2-target.png",
+      "targetHash": "08305c2a939e30f31ae540388486ebee968c17abcb10c75304368cafb06a1a80",
+      "inputPath": "p1-r2c2-input.png",
+      "inputDimensions": [
+        716,
+        478
+      ],
+      "inputHash": "08305c2a939e30f31ae540388486ebee968c17abcb10c75304368cafb06a1a80",
+      "contextHash": "6226b4de1b7431df740fbf35855dd505a1549e015fdcb0c019acf70e1a16cbf2",
+      "prompt": "Image 1 is the complete original styled context: composition, exact engine geometry, atmospheric style, colour and lighting authority. Image 2 is the target: return its exact framing and geometry. Reconstruct plausible higher-resolution detail while preserving metal contours, engine-bell count, shapes, spacing, overlap, smoke lobes, luminous softness and focus falloff. Keep dark metal photographic and clouds softly atmospheric. No new rings, panel seams, hardware, sparks, shock diamonds, repeated texture, synthetic grain, halos, blanket sharpening or style drift. Clipped highlights remain smoothly clipped. Return ONLY image 2, the complete target crop, matching its entire framing and aspect ratio (716:478), without borders, reframing or returning the full scene. Use maximum practical supported native resolution. Enhance the existing image only.",
+      "tool": "built-in image_gen",
+      "requestedResolution": "maximum practical supported native resolution",
+      "status": "rejected",
+      "retryCount": 0,
+      "native": {
+        "path": "p1-r2c2-native.png",
+        "width": 1534,
+        "height": 1025,
+        "bytes": 2201184,
+        "sha256": "854d5f2c325cbaea527df2aaeb5da2abdf2ae94af3893562924eccf7c8e24063"
+      },
+      "generatedAt": "2026-10-10T12:44:46.743Z",
+      "registration": {
+        "scale": 1.02,
+        "angle": 0,
+        "tx": -3,
+        "ty": -2,
+        "score": 0.9790067846663281,
+        "variance": 1708.478255973463,
+        "bound": true,
+        "bounds": {
+          "scale": [
+            0.98,
+            1.02
+          ],
+          "rotationDegrees": [
+            -0.4,
+            0.4
+          ],
+          "translation": [
+            3,
+            2
+          ]
+        },
+        "residual": 0.020993215333671933,
+        "method": "bounded global similarity NCC on blurred luminance; no local deformation"
+      },
+      "reason": "Registration reached conservative scale/translation bounds"
+    },
+    {
+      "id": "p1-r2c3",
+      "core": [
+        1024,
+        341,
+        1536,
+        683
+      ],
+      "box": [
+        922,
+        273,
+        1536,
+        751
+      ],
+      "pass": 1,
+      "masterDimensions": [
+        1536,
+        1024
+      ],
+      "sourceBox": [
+        922,
+        273,
+        1536,
+        751
+      ],
+      "targetPath": "p1-r2c3-target.png",
+      "targetHash": "b6a51550709ba630dcbe7a9b86caee7e3121301b417f30cbfa7992c121159a96",
+      "inputPath": "p1-r2c3-input.png",
+      "inputDimensions": [
+        614,
+        478
+      ],
+      "inputHash": "b6a51550709ba630dcbe7a9b86caee7e3121301b417f30cbfa7992c121159a96",
+      "contextHash": "6226b4de1b7431df740fbf35855dd505a1549e015fdcb0c019acf70e1a16cbf2",
+      "prompt": "Image 1 is the complete original styled context: composition, exact engine geometry, atmospheric style, colour and lighting authority. Image 2 is the target: return its exact framing and geometry. Reconstruct plausible higher-resolution detail while preserving metal contours, engine-bell count, shapes, spacing, overlap, smoke lobes, luminous softness and focus falloff. Keep dark metal photographic and clouds softly atmospheric. No new rings, panel seams, hardware, sparks, shock diamonds, repeated texture, synthetic grain, halos, blanket sharpening or style drift. Clipped highlights remain smoothly clipped. Return ONLY image 2, the complete target crop, matching its entire framing and aspect ratio (614:478), without borders, reframing or returning the full scene. Use maximum practical supported native resolution. Enhance the existing image only.",
+      "tool": "built-in image_gen",
+      "requestedResolution": "maximum practical supported native resolution",
+      "status": "rejected",
+      "retryCount": 0,
+      "native": {
+        "path": "p1-r2c3-native.png",
+        "width": 1421,
+        "height": 1107,
+        "bytes": 2046395,
+        "sha256": "1e741f6f3a8c2637234d4f2db09321833c57b6162f2035202b3ff982c2f3e66e"
+      },
+      "generatedAt": "2026-10-10T12:44:46.743Z",
+      "registration": {
+        "scale": 1.02,
+        "angle": 0,
+        "tx": -1,
+        "ty": -2,
+        "score": 0.9921537225216602,
+        "variance": 3662.531007535132,
+        "bound": true,
+        "bounds": {
+          "scale": [
+            0.98,
+            1.02
+          ],
+          "rotationDegrees": [
+            -0.4,
+            0.4
+          ],
+          "translation": [
+            3,
+            3
+          ]
+        },
+        "residual": 0.00784627747833977,
+        "method": "bounded global similarity NCC on blurred luminance; no local deformation"
+      },
+      "reason": "Registration reached conservative scale/translation bounds"
+    },
+    {
+      "id": "p1-r3c1",
+      "core": [
+        0,
+        683,
+        512,
+        1024
+      ],
+      "box": [
+        0,
+        615,
+        614,
+        1024
+      ],
+      "pass": 1,
+      "masterDimensions": [
+        1536,
+        1024
+      ],
+      "sourceBox": [
+        0,
+        615,
+        614,
+        1024
+      ],
+      "targetPath": "p1-r3c1-target.png",
+      "targetHash": "f9a2e56c2fc3579f66cd156284fa05354f2cf8ad1ad9cfdb84f0b7c0ae159547",
+      "inputPath": "p1-r3c1-input.png",
+      "inputDimensions": [
+        614,
+        409
+      ],
+      "inputHash": "f9a2e56c2fc3579f66cd156284fa05354f2cf8ad1ad9cfdb84f0b7c0ae159547",
+      "contextHash": "6226b4de1b7431df740fbf35855dd505a1549e015fdcb0c019acf70e1a16cbf2",
+      "prompt": "Image 1 is the complete original styled context: composition, exact engine geometry, atmospheric style, colour and lighting authority. Image 2 is the target: return its exact framing and geometry. Reconstruct plausible higher-resolution detail while preserving metal contours, engine-bell count, shapes, spacing, overlap, smoke lobes, luminous softness and focus falloff. Keep dark metal photographic and clouds softly atmospheric. No new rings, panel seams, hardware, sparks, shock diamonds, repeated texture, synthetic grain, halos, blanket sharpening or style drift. Clipped highlights remain smoothly clipped. Return ONLY image 2, the complete target crop, matching its entire framing and aspect ratio (614:409), without borders, reframing or returning the full scene. Use maximum practical supported native resolution. Enhance the existing image only.",
+      "tool": "built-in image_gen",
+      "requestedResolution": "maximum practical supported native resolution",
+      "status": "rejected",
+      "retryCount": 0,
+      "native": {
+        "path": "p1-r3c1-native.png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 2007014,
+        "sha256": "da1d7a5f23b8bd54ac55d78d14c1a4ab30485d3fa4fb9fc3080e2cc7faa0ea2d"
+      },
+      "generatedAt": "2026-10-10T12:44:46.743Z",
+      "registration": {
+        "scale": 1.02,
+        "angle": 0.006981317007977318,
+        "tx": -3,
+        "ty": -2,
+        "score": 0.9201824875498409,
+        "variance": 2338.7901554918003,
+        "bound": true,
+        "bounds": {
+          "scale": [
+            0.98,
+            1.02
+          ],
+          "rotationDegrees": [
+            -0.4,
+            0.4
+          ],
+          "translation": [
+            3,
+            2
+          ]
+        },
+        "residual": 0.07981751245015911,
+        "method": "bounded global similarity NCC on blurred luminance; no local deformation"
+      },
+      "reason": "Registration reached conservative scale/translation bounds"
+    },
+    {
+      "id": "p1-r3c2",
+      "core": [
+        512,
+        683,
+        1024,
+        1024
+      ],
+      "box": [
+        410,
+        615,
+        1126,
+        1024
+      ],
+      "pass": 1,
+      "masterDimensions": [
+        1536,
+        1024
+      ],
+      "sourceBox": [
+        410,
+        615,
+        1126,
+        1024
+      ],
+      "targetPath": "p1-r3c2-target.png",
+      "targetHash": "8b2d4f0e9b3184e0977d0b304f755614826fffdbe716bcc3196ba49f63e16228",
+      "inputPath": "p1-r3c2-input.png",
+      "inputDimensions": [
+        716,
+        409
+      ],
+      "inputHash": "8b2d4f0e9b3184e0977d0b304f755614826fffdbe716bcc3196ba49f63e16228",
+      "contextHash": "6226b4de1b7431df740fbf35855dd505a1549e015fdcb0c019acf70e1a16cbf2",
+      "prompt": "Image 1 is the complete original styled context: composition, exact engine geometry, atmospheric style, colour and lighting authority. Image 2 is the target: return its exact framing and geometry. Reconstruct plausible higher-resolution detail while preserving metal contours, engine-bell count, shapes, spacing, overlap, smoke lobes, luminous softness and focus falloff. Keep dark metal photographic and clouds softly atmospheric. No new rings, panel seams, hardware, sparks, shock diamonds, repeated texture, synthetic grain, halos, blanket sharpening or style drift. Clipped highlights remain smoothly clipped. Return ONLY image 2, the complete target crop, matching its entire framing and aspect ratio (716:409), without borders, reframing or returning the full scene. Use maximum practical supported native resolution. Enhance the existing image only.",
+      "tool": "built-in image_gen",
+      "requestedResolution": "maximum practical supported native resolution",
+      "status": "accepted",
+      "retryCount": 0,
+      "native": {
+        "path": "p1-r3c2-native.png",
+        "width": 1660,
+        "height": 948,
+        "bytes": 2116534,
+        "sha256": "133bc59c081686d31361fbfda4c4f338501fd5f0108ab40104099a1c1f8bd7fa"
+      },
+      "generatedAt": "2026-10-10T12:44:46.743Z",
+      "registration": {
+        "scale": 1.01,
+        "angle": 0,
+        "tx": 0,
+        "ty": -1,
+        "score": 0.9880075918366512,
+        "variance": 1091.108003996372,
+        "bound": false,
+        "bounds": {
+          "scale": [
+            0.98,
+            1.02
+          ],
+          "rotationDegrees": [
+            -0.4,
+            0.4
+          ],
+          "translation": [
+            3,
+            2
+          ]
+        },
+        "residual": 0.011992408163348789,
+        "method": "bounded global similarity NCC on blurred luminance; no local deformation"
+      },
+      "supportedFraction": 0.858828420592534,
+      "mask": "p1-r3c2-mask.png",
+      "colorMatch": {
+        "method": "smooth 12×12 broad RGB mean-offset field; bilinear interpolation",
+        "maxOffset": 20
+      },
+      "feather": "20% of interior borders; normalized overlap with retained prior"
+    },
+    {
+      "id": "p1-r3c3",
+      "core": [
+        1024,
+        683,
+        1536,
+        1024
+      ],
+      "box": [
+        922,
+        615,
+        1536,
+        1024
+      ],
+      "pass": 1,
+      "masterDimensions": [
+        1536,
+        1024
+      ],
+      "sourceBox": [
+        922,
+        615,
+        1536,
+        1024
+      ],
+      "targetPath": "p1-r3c3-target.png",
+      "targetHash": "6b669865209bbdf4d275435c2afa8191f96cb88281e7a1079d22a3c144b56789",
+      "inputPath": "p1-r3c3-input.png",
+      "inputDimensions": [
+        614,
+        409
+      ],
+      "inputHash": "6b669865209bbdf4d275435c2afa8191f96cb88281e7a1079d22a3c144b56789",
+      "contextHash": "6226b4de1b7431df740fbf35855dd505a1549e015fdcb0c019acf70e1a16cbf2",
+      "prompt": "Image 1 is the complete original styled context: composition, exact engine geometry, atmospheric style, colour and lighting authority. Image 2 is the target: return its exact framing and geometry. Reconstruct plausible higher-resolution detail while preserving metal contours, engine-bell count, shapes, spacing, overlap, smoke lobes, luminous softness and focus falloff. Keep dark metal photographic and clouds softly atmospheric. No new rings, panel seams, hardware, sparks, shock diamonds, repeated texture, synthetic grain, halos, blanket sharpening or style drift. Clipped highlights remain smoothly clipped. Return ONLY image 2, the complete target crop, matching its entire framing and aspect ratio (614:409), without borders, reframing or returning the full scene. Use maximum practical supported native resolution. Enhance the existing image only.",
+      "tool": "built-in image_gen",
+      "requestedResolution": "maximum practical supported native resolution",
+      "status": "rejected",
+      "retryCount": 0,
+      "native": {
+        "path": "p1-r3c3-native.png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 2011337,
+        "sha256": "fdf7970641c5119bd4e6b291386ba32a69cc4895561dbd3a5ad28668d3df74fc"
+      },
+      "generatedAt": "2026-10-10T12:44:46.743Z",
+      "registration": {
+        "scale": 1.02,
+        "angle": 0,
+        "tx": -2,
+        "ty": -2,
+        "score": 0.9794541866325167,
+        "variance": 2085.520606406503,
+        "bound": true,
+        "bounds": {
+          "scale": [
+            0.98,
+            1.02
+          ],
+          "rotationDegrees": [
+            -0.4,
+            0.4
+          ],
+          "translation": [
+            3,
+            2
+          ]
+        },
+        "residual": 0.02054581336748329,
+        "method": "bounded global similarity NCC on blurred luminance; no local deformation"
+      },
+      "reason": "Registration reached conservative scale/translation bounds"
+    },
+    {
+      "id": "p2-upper-engines",
+      "box": [
+        2621,
+        983,
+        5407,
+        2457
+      ],
+      "pass": 2,
+      "masterDimensions": [
+        8192,
+        5461
+      ],
+      "sourceBox": [
+        491.4375,
+        184.3237502288958,
+        1013.8125,
+        460.71561984984436
+      ],
+      "targetPath": "p2-upper-engines-target.png",
+      "targetHash": "ab8a83e35c7bc9b1884daeae030d0c63a3da4da528cb6b492fa106370e4391a2",
+      "inputPath": "p2-upper-engines-input.png",
+      "inputDimensions": [
+        1600,
+        847
+      ],
+      "inputHash": "26fae44289e8d7900c16230108b90d18eabbf8e1615629c3880e3615e2f3d762",
+      "contextHash": "6226b4de1b7431df740fbf35855dd505a1549e015fdcb0c019acf70e1a16cbf2",
+      "prompt": "Image 1 is the complete original styled context: composition, exact engine geometry, atmospheric style, colour and lighting authority. Image 2 is the target: return its exact framing and geometry. Reconstruct plausible higher-resolution detail while preserving metal contours, engine-bell count, shapes, spacing, overlap, smoke lobes, luminous softness and focus falloff. Keep dark metal photographic and clouds softly atmospheric. No new rings, panel seams, hardware, sparks, shock diamonds, repeated texture, synthetic grain, halos, blanket sharpening or style drift. Clipped highlights remain smoothly clipped. Return ONLY image 2, the complete target crop, matching its entire framing and aspect ratio (1600:847), without borders, reframing or returning the full scene. Use maximum practical supported native resolution. Enhance the existing image only.",
+      "tool": "built-in image_gen",
+      "requestedResolution": "maximum practical supported native resolution",
+      "status": "accepted",
+      "retryCount": 0,
+      "native": {
+        "path": "p2-upper-engines-native.png",
+        "width": 1723,
+        "height": 913,
+        "bytes": 1966472,
+        "sha256": "eb694248ecf06c2aba6411e43aafd71ef308e5df9526728bac556b058f04386f"
+      },
+      "generatedAt": "2026-10-10T12:48:21.074Z",
+      "registration": {
+        "scale": 1,
+        "angle": 0,
+        "tx": 0,
+        "ty": 0,
+        "score": 0.9979186189125719,
+        "variance": 4764.178940779345,
+        "bound": false,
+        "bounds": {
+          "scale": [
+            0.98,
+            1.02
+          ],
+          "rotationDegrees": [
+            -0.4,
+            0.4
+          ],
+          "translation": [
+            3,
+            2
+          ]
+        },
+        "residual": 0.002081381087428058,
+        "method": "bounded global similarity NCC on blurred luminance; no local deformation"
+      },
+      "supportedFraction": 0.8141210023757087,
+      "mask": "p2-upper-engines-mask.png",
+      "colorMatch": {
+        "method": "smooth 12×12 broad RGB mean-offset field; bilinear interpolation",
+        "maxOffset": 20
+      },
+      "feather": "20% of interior borders; normalized overlap with retained prior"
+    },
+    {
+      "id": "p2-left-bells",
+      "box": [
+        1884,
+        1802,
+        4014,
+        3823
+      ],
+      "pass": 2,
+      "masterDimensions": [
+        8192,
+        5461
+      ],
+      "sourceBox": [
+        353.25,
+        337.8956235121773,
+        752.625,
+        716.8562534334371
+      ],
+      "targetPath": "p2-left-bells-target.png",
+      "targetHash": "12585da8dbd7794f014fdd56d7291eeedb5d7354f33921296b5b25bc215d4b78",
+      "inputPath": "p2-left-bells-input.png",
+      "inputDimensions": [
+        1600,
+        1518
+      ],
+      "inputHash": "83f102197bc30b1831afebd7ad53a5d698e9ea4509311bb650da7eadba459bf0",
+      "contextHash": "6226b4de1b7431df740fbf35855dd505a1549e015fdcb0c019acf70e1a16cbf2",
+      "prompt": "Image 1 is the complete original styled context: composition, exact engine geometry, atmospheric style, colour and lighting authority. Image 2 is the target: return its exact framing and geometry. Reconstruct plausible higher-resolution detail while preserving metal contours, engine-bell count, shapes, spacing, overlap, smoke lobes, luminous softness and focus falloff. Keep dark metal photographic and clouds softly atmospheric. No new rings, panel seams, hardware, sparks, shock diamonds, repeated texture, synthetic grain, halos, blanket sharpening or style drift. Clipped highlights remain smoothly clipped. Return ONLY image 2, the complete target crop, matching its entire framing and aspect ratio (1600:1518), without borders, reframing or returning the full scene. Use maximum practical supported native resolution. Enhance the existing image only.",
+      "tool": "built-in image_gen",
+      "requestedResolution": "maximum practical supported native resolution",
+      "status": "accepted",
+      "retryCount": 0,
+      "native": {
+        "path": "p2-left-bells-native.png",
+        "width": 1288,
+        "height": 1221,
+        "bytes": 2055223,
+        "sha256": "893b4d201f05d7d6735c885a09c926748a9778b81e7e3b31c64d9c755d2d1bd2"
+      },
+      "generatedAt": "2026-10-10T12:48:21.074Z",
+      "registration": {
+        "scale": 1,
+        "angle": 0,
+        "tx": 0,
+        "ty": 0,
+        "score": 0.9912025015804417,
+        "variance": 2334.891158545981,
+        "bound": false,
+        "bounds": {
+          "scale": [
+            0.98,
+            1.02
+          ],
+          "rotationDegrees": [
+            -0.4,
+            0.4
+          ],
+          "translation": [
+            3,
+            3
+          ]
+        },
+        "residual": 0.008797498419558347,
+        "method": "bounded global similarity NCC on blurred luminance; no local deformation"
+      },
+      "supportedFraction": 0.8134354535592244,
+      "mask": "p2-left-bells-mask.png",
+      "colorMatch": {
+        "method": "smooth 12×12 broad RGB mean-offset field; bilinear interpolation",
+        "maxOffset": 20
+      },
+      "feather": "20% of interior borders; normalized overlap with retained prior"
+    },
+    {
+      "id": "p2-right-bells",
+      "box": [
+        4260,
+        1693,
+        6308,
+        3823
+      ],
+      "pass": 2,
+      "masterDimensions": [
+        8192,
+        5461
+      ],
+      "sourceBox": [
+        798.75,
+        317.45687603003114,
+        1182.75,
+        716.8562534334371
+      ],
+      "targetPath": "p2-right-bells-target.png",
+      "targetHash": "79dafa90827ed819c067fa88f74cf176e608a2ec5adc0e8e1a3c6fad2d4b5f6a",
+      "inputPath": "p2-right-bells-input.png",
+      "inputDimensions": [
+        1538,
+        1600
+      ],
+      "inputHash": "0895e4f458629924bc86b23cb60e7e7eee41ce11eb7176a24a1841b836a82580",
+      "contextHash": "6226b4de1b7431df740fbf35855dd505a1549e015fdcb0c019acf70e1a16cbf2",
+      "prompt": "Image 1 is the complete original styled context: composition, exact engine geometry, atmospheric style, colour and lighting authority. Image 2 is the target: return its exact framing and geometry. Reconstruct plausible higher-resolution detail while preserving metal contours, engine-bell count, shapes, spacing, overlap, smoke lobes, luminous softness and focus falloff. Keep dark metal photographic and clouds softly atmospheric. No new rings, panel seams, hardware, sparks, shock diamonds, repeated texture, synthetic grain, halos, blanket sharpening or style drift. Clipped highlights remain smoothly clipped. Return ONLY image 2, the complete target crop, matching its entire framing and aspect ratio (1538:1600), without borders, reframing or returning the full scene. Use maximum practical supported native resolution. Enhance the existing image only.",
+      "tool": "built-in image_gen",
+      "requestedResolution": "maximum practical supported native resolution",
+      "status": "accepted",
+      "retryCount": 0,
+      "native": {
+        "path": "p2-right-bells-native.png",
+        "width": 1229,
+        "height": 1280,
+        "bytes": 2120326,
+        "sha256": "bb34824d1ac960534aa506ceaeca7cc81ef7a10fa0645e405082b4c958c1b7e7"
+      },
+      "generatedAt": "2026-10-10T12:48:21.074Z",
+      "registration": {
+        "scale": 1,
+        "angle": 0,
+        "tx": 0,
+        "ty": 0,
+        "score": 0.9935868182874723,
+        "variance": 2091.33537646323,
+        "bound": false,
+        "bounds": {
+          "scale": [
+            0.98,
+            1.02
+          ],
+          "rotationDegrees": [
+            -0.4,
+            0.4
+          ],
+          "translation": [
+            3,
+            3
+          ]
+        },
+        "residual": 0.0064131817125276935,
+        "method": "bounded global similarity NCC on blurred luminance; no local deformation"
+      },
+      "supportedFraction": 0.8152460662411972,
+      "mask": "p2-right-bells-mask.png",
+      "colorMatch": {
+        "method": "smooth 12×12 broad RGB mean-offset field; bilinear interpolation",
+        "maxOffset": 20
+      },
+      "feather": "20% of interior borders; normalized overlap with retained prior"
+    },
+    {
+      "id": "p2-exhaust-ribbons",
+      "box": [
+        2458,
+        3440,
+        6144,
+        5461
+      ],
+      "pass": 2,
+      "masterDimensions": [
+        8192,
+        5461
+      ],
+      "sourceBox": [
+        460.875,
+        645.0393700787401,
+        1152,
+        1024
+      ],
+      "targetPath": "p2-exhaust-ribbons-target.png",
+      "targetHash": "fea5684205889d2247a45fff96f40a021b18d43ee45d8609b480fe130c55ca1c",
+      "inputPath": "p2-exhaust-ribbons-input.png",
+      "inputDimensions": [
+        1600,
+        877
+      ],
+      "inputHash": "a13798dd87f95479b67442d07fa7ba973f36e6c575626b7c1f8d30bdf61c5871",
+      "contextHash": "6226b4de1b7431df740fbf35855dd505a1549e015fdcb0c019acf70e1a16cbf2",
+      "prompt": "Image 1 is the complete original styled context: composition, exact engine geometry, atmospheric style, colour and lighting authority. Image 2 is the target: return its exact framing and geometry. Reconstruct plausible higher-resolution detail while preserving metal contours, engine-bell count, shapes, spacing, overlap, smoke lobes, luminous softness and focus falloff. Keep dark metal photographic and clouds softly atmospheric. No new rings, panel seams, hardware, sparks, shock diamonds, repeated texture, synthetic grain, halos, blanket sharpening or style drift. Clipped highlights remain smoothly clipped. Return ONLY image 2, the complete target crop, matching its entire framing and aspect ratio (1600:877), without borders, reframing or returning the full scene. Use maximum practical supported native resolution. Enhance the existing image only.",
+      "tool": "built-in image_gen",
+      "requestedResolution": "maximum practical supported native resolution",
+      "status": "accepted",
+      "retryCount": 0,
+      "native": {
+        "path": "p2-exhaust-ribbons-native.png",
+        "width": 1693,
+        "height": 929,
+        "bytes": 2113510,
+        "sha256": "3cf678390b317fce950d9c7a244b654e637f6846dd4bb64d261f25355d432d0e"
+      },
+      "generatedAt": "2026-10-10T12:48:21.074Z",
+      "registration": {
+        "scale": 1,
+        "angle": -0.006981317007977318,
+        "tx": 0,
+        "ty": 0,
+        "score": 0.9910792469492186,
+        "variance": 1222.1766841074473,
+        "bound": false,
+        "bounds": {
+          "scale": [
+            0.98,
+            1.02
+          ],
+          "rotationDegrees": [
+            -0.4,
+            0.4
+          ],
+          "translation": [
+            3,
+            2
+          ]
+        },
+        "residual": 0.008920753050781438,
+        "method": "bounded global similarity NCC on blurred luminance; no local deformation"
+      },
+      "supportedFraction": 0.8607235261442322,
+      "mask": "p2-exhaust-ribbons-mask.png",
+      "colorMatch": {
+        "method": "smooth 12×12 broad RGB mean-offset field; bilinear interpolation",
+        "maxOffset": 20
+      },
+      "feather": "20% of interior borders; normalized overlap with retained prior"
+    }
+  ],
+  "status": "verified-final",
+  "context": {
+    "path": "context.png",
+    "sha256": "6226b4de1b7431df740fbf35855dd505a1549e015fdcb0c019acf70e1a16cbf2",
+    "width": 1536,
+    "height": 1024
+  },
+  "style": {
+    "prompt": "Use case: style-transfer. Asset: Tokyo Liftoff Omarchy wallpaper. Image 1 is the exact engine-cluster photograph to edit; image 2 supplies only Tokyo Liftoff colour and atmospheric styling. Restyle image 1 into the same refined midnight navy, periwinkle blue, lavender, violet and luminous pink treatment as image 2. Keep the exact 3:2 composition, camera angle, circular arrangement, count, positions, shapes and overlap of every visible engine bell, existing smoke boundaries and exhaust geometry. Render subtle painterly atmospheric clouds with detailed photographic metal hardware; dark upper smoke becomes navy and lavender with pink rimlight, sky midnight blue; glowing exhaust retains white-gold core, amber light and pink/lilac outer ribbons with restrained cyan/periwinkle accents. Do not invent engine bells, hardware, new sparks, stars, planets, skyline, text or logos. Retain smooth clipped highlights and original irregular smoke, no uniformly sharp cauliflower texture. Return only the complete edited first photograph, no framing change, borders, labels or layout. Maximum practical supported native resolution.\n",
+    "nativeDimensions": [
+      1536,
+      1024
+    ],
+    "tool": "built-in image_gen",
+    "status": "visually accepted: composition and bell arrangement retained",
+    "reference": {
+      "file": "01-starship-ascent-preview.jpg",
+      "sha256": "dfcf0e8d693b837c696c90ec6356eb7097497f7c41898e5f1eb43d62cdda1423",
+      "role": "Tokyo Liftoff colour and atmosphere only"
+    }
+  },
+  "passes": [
+    {
+      "pass": 1,
+      "assemblyDimensions": [
+        3072,
+        2048
+      ],
+      "rationale": "2× styled context assembly conservatively uses native crop detail before proportional 8K export",
+      "accepted": 2,
+      "rejected": 7,
+      "master": "M1.png",
+      "sha256": "5f15e6d7298d8b41cfb29e1aa933ee078ac14215dad35ecc9ccd6c5beed0fe31"
+    },
+    {
+      "pass": 2,
+      "assemblyDimensions": [
+        8192,
+        5461
+      ],
+      "rationale": "salient refinements registered into preceding 8K master",
+      "accepted": 4,
+      "rejected": 0,
+      "master": "M2.png",
+      "sha256": "5caabcbd2ed24663e65511425fa7b2e08cb52ea9ba02fb343eb1e39e2410fb75"
+    }
+  ],
+  "registrationPolicy": {
+    "scaleBounds": [
+      0.98,
+      1.02
+    ],
+    "rotationDegrees": [
+      -0.4,
+      0.4
+    ],
+    "translationFraction": 0.025,
+    "localDeformation": false,
+    "globalNccMinimum": 0.55,
+    "rigidLocalNccMinimum": 0.72,
+    "otherLocalNccMinimum": 0.42,
+    "featherFraction": 0.2,
+    "priorFallback": true,
+    "overlap": "normalized"
+  },
+  "qaPass1": {
+    "reviewed": [
+      "p1-preview.jpg",
+      "p1-100-upper-engines.png",
+      "p1-100-left-bells.png",
+      "p1-100-right-bells.png",
+      "p1-100-exhaust-overlap.png"
+    ],
+    "findings": "No conspicuous overlap seams or doubled hardware in inspected crops. Rigid source-derived centre and right bells retain softer prior detail. Smooth clipped highlights retained."
+  },
+  "export": {
+    "file": "engine-cluster-tokyo-night-8k.png",
+    "width": 8192,
+    "height": 5461,
+    "channels": 3,
+    "bytes": 22427396,
+    "sha256": "f00948eeac36083128533548f61a78ff66e9ab6cb613f953b4e67e89bfa1f319",
+    "decodedPixelSha256": "e8bc691ea6a05927034147ae05b6308bbe0aad683786578bc492fae4e95fd184",
+    "iccSha256": "c56e1685d888f5edb92fe07f2750f387f8fe8e91b32ff8fb0b56bfbbb9458353",
+    "pngChunksVerified": 2738,
+    "sourceHashPreserved": true,
+    "assembledExport": true,
+    "detail": "AI reconstructed",
+    "nativeGenerationClaim": false
+  },
+  "qa": {
+    "fullImages": [
+      "p1-preview.jpg",
+      "p2-preview.jpg"
+    ],
+    "actual100PercentCrops": [
+      "p1-100-upper-engines.png",
+      "p1-100-left-bells.png",
+      "p1-100-right-bells.png",
+      "p1-100-exhaust-overlap.png",
+      "p2-100-upper-engines.png",
+      "p2-100-left-bells.png",
+      "p2-100-right-bells.png",
+      "p2-100-exhaust-overlap.png"
+    ],
+    "findings": "No conspicuous seams, doubled bell edges or abrupt colour transitions were observed in the inspected hardware and exhaust overlap crops. Soft prior detail remains outside the accepted confidence masks; clipped engine highlights stay smooth."
+  }
+}

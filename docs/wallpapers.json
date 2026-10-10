@@ -34,5 +34,17 @@
     "sourceFile": "liftoff-sunset-enhanced-8k.png",
     "sourceSha256": "849d652f5be9836276feda7c76822179bbbb9634ba581ab2925c470cc566ede2",
     "iccSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "file": "backgrounds/04-engine-cluster.png",
+    "title": "Engine Cluster",
+    "width": 8192,
+    "height": 5461,
+    "bytes": 22427396,
+    "sha256": "f00948eeac36083128533548f61a78ff66e9ab6cb613f953b4e67e89bfa1f319",
+    "decodedPixelSha256": "e8bc691ea6a05927034147ae05b6308bbe0aad683786578bc492fae4e95fd184",
+    "sourceFile": "3E898CD2-4594-4089-82DE-1AF80DCDAD3F.jpeg",
+    "sourceSha256": "3ccbd300ab2ceeda5df7c51cefb4bf3510c8001195bf137474b8ff425557492f",
+    "iccSha256": "c56e1685d888f5edb92fe07f2750f387f8fe8e91b32ff8fb0b56bfbbb9458353"
   }
 ]
