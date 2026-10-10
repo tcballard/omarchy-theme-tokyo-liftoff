@@ -4,11 +4,13 @@
 
 Tokyo Night colours. Liftoff skies.
 
-A standalone Omarchy theme combining the complete upstream Tokyo Night palette with four approved Liftoff wallpapers: navy and lavender Starship Ascent, golden night launch, violet sunset launch, and the glowing Engine Cluster.
+A standalone Omarchy theme combining the complete upstream Tokyo Night palette with four approved Liftoff wallpapers: Liftoff Sunset, navy and lavender Starship Ascent, Golden Liftoff, and the glowing Engine Cluster.
 
 ![Tokyo Liftoff wallpaper gallery](docs/wallpaper-gallery.jpg)
 
 This gallery shows the included artwork; it is not a desktop screenshot.
+
+[Wallpaper on Tom’s XPS](docs/wallpaper-on-xps.jpg): user-supplied evidence of Liftoff Sunset on the desktop. Full theme acceptance remains pending.
 
 Original palette: [Omarchy Tokyo Night](https://github.com/omacom/omarchy/tree/quattro/themes/tokyo-night). Artwork collection: [Liftoff](https://github.com/tcballard/omarchy-theme-liftoff).
 
@@ -43,11 +45,13 @@ The complete `colors.toml` is copied unchanged from [Omarchy Tokyo Night](https:
 
 ## Wallpapers
 
+Liftoff Sunset, also proposed for upstream Tokyo Night, is the default for a fresh selection. Backgrounds cycle in the order below. An existing remembered selection may be retained.
+
 | File | Artwork | Export size |
 | --- | --- | --- |
-| `01-starship-ascent.png` | Starship Ascent | 8192 × 4667 |
-| `02-golden-liftoff.png` | Golden Liftoff | 8192 × 4053 |
-| `03-liftoff-sunset.png` | Liftoff Sunset | 8192 × 4608 |
+| `01-liftoff-sunset.png` | Liftoff Sunset | 8192 × 4608 |
+| `02-starship-ascent.png` | Starship Ascent | 8192 × 4667 |
+| `03-golden-liftoff.png` | Golden Liftoff | 8192 × 4053 |
 | `04-engine-cluster.png` | Engine Cluster | 8192 × 5461 |
 
 Lossless PNG recompression preserves every decoded pixel and embedded colour profile from the approved masters. Original proportions are preserved. 8K describes the assembled export; AI-reconstructed detail is not recovered photographic information.

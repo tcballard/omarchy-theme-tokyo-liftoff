@@ -39,4 +39,12 @@ Published to the user-provided tcballard/omarchy-theme-tokyo-liftoff repository.
 
 The fourth wallpaper passes full PNG decode, signature/chunk CRC/IEND checks, exact 8192 × 5461 dimensions, source hash preservation, lossless export and embedded sRGB verification. Full images and representative actual 100% crops were inspected after each of two passes. See engine-cluster-enhancement.md and the media manifest for processing details. Earlier three wallpaper files and the complete upstream palette are unchanged.
 
+## Liftoff Sunset as primary — 10 October 2026
+
+Renamed the first three wallpapers and their previews to order Liftoff Sunset → Starship Ascent → Golden Liftoff → Engine Cluster. All four wallpaper SHA-256 hashes still match their approved manifest values; no wallpaper pixels or profiles changed. The gallery and current file references follow this order. Historical processing records retain the filenames used during creation.
+
+`./tests/run` passes all five tests and structure/link/CI validation. An isolated headless fixture using upstream Omarchy commit `077ac1da939de00d061c1035e1a1d00587a119b8` selects Sunset first, cycles through the other three, and returns to Sunset. It generates 20 configuration files with no unresolved template tokens. Headless checks do not establish live acceptance.
+
+Tom’s XPS screenshot is preserved byte for byte as wallpaper-display evidence. The active theme and installed commit are unknown; wider shell, application, dialog and lock-screen checks remain pending in ACCEPTANCE.json.
+
 The actual upstream headless staging scripts generated 20 configuration outputs with no unresolved template tokens and cycled Starship Ascent → Golden Liftoff → Liftoff Sunset → Engine Cluster → Starship Ascent in an isolated fixture. Repository portable checks and all five existing tests passed; git diff --check passed. Live desktop acceptance remains pending.

@@ -8,5 +8,15 @@
   "results": [],
   "limitations": [
     "No live Omarchy desktop acceptance recorded."
-  ]
+  ],
+  "wallpaper_evidence": {
+    "date": "2026-10-10",
+    "file": "docs/wallpaper-on-xps.jpg",
+    "supplied_by": "Tom Ballard",
+    "platform_description": "XPS (user described)",
+    "observed_wallpaper": "Liftoff Sunset",
+    "active_theme": "unverified",
+    "input_commit": null,
+    "scope": "Wallpaper display only; complete palette, applications, dialogs and lock-screen acceptance pending."
+  }
 }
