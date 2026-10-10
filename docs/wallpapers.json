@@ -1,0 +1,50 @@
+[
+  {
+    "file": "backgrounds/01-liftoff-sunset.png",
+    "title": "Liftoff Sunset",
+    "width": 8192,
+    "height": 4608,
+    "bytes": 25978060,
+    "sha256": "0e18ec30ef7c3cd29345626e6509e47ed717f410606aff288c72f0ed6b81313c",
+    "decodedPixelSha256": "b48f4dcef1f55d3d07c3669501b98da601dbc1ccf3b45e3b6174ac01da3b6a0b",
+    "sourceFile": "liftoff-sunset-enhanced-8k.png",
+    "sourceSha256": "849d652f5be9836276feda7c76822179bbbb9634ba581ab2925c470cc566ede2",
+    "iccSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "file": "backgrounds/02-starship-ascent.png",
+    "title": "Starship Ascent",
+    "width": 8192,
+    "height": 4667,
+    "bytes": 18780927,
+    "sha256": "f4c3fc6971a5fa289df3afdfb181c7f00668251f3c6d26ecc1de26b96ff8242f",
+    "decodedPixelSha256": "adb3b8c444ce436b1d550ba6c2fe66b60a05891f0109b7ee3d848ec805d0fa53",
+    "sourceFile": "starship-tokyo-night-8k.png",
+    "sourceSha256": "cfbaaf9c9a6663a80fae1bd2583deecb3e90ccf8c05fbbd7788389438aa7a12e",
+    "iccSha256": "c56e1685d888f5edb92fe07f2750f387f8fe8e91b32ff8fb0b56bfbbb9458353"
+  },
+  {
+    "file": "backgrounds/03-golden-liftoff.png",
+    "title": "Golden Liftoff",
+    "width": 8192,
+    "height": 4053,
+    "bytes": 30017713,
+    "sha256": "c84f46e958203262b3ea8f7f90fcf21eb3f939304c17e04e99ced21857f2a137",
+    "decodedPixelSha256": "347dec89a764ca10fd83e86f95ea3a9a9a69f820b0e50eccfef207fd16085e1d",
+    "sourceFile": "tokyo-night-liftoff-8k.png",
+    "sourceSha256": "f21e2c3856b316671c3a30abefb82776b68470ddce1782fccf6338b054636bd7",
+    "iccSha256": "c56e1685d888f5edb92fe07f2750f387f8fe8e91b32ff8fb0b56bfbbb9458353"
+  },
+  {
+    "file": "backgrounds/04-engine-cluster.png",
+    "title": "Engine Cluster",
+    "width": 8192,
+    "height": 5461,
+    "bytes": 22427396,
+    "sha256": "f00948eeac36083128533548f61a78ff66e9ab6cb613f953b4e67e89bfa1f319",
+    "decodedPixelSha256": "e8bc691ea6a05927034147ae05b6308bbe0aad683786578bc492fae4e95fd184",
+    "sourceFile": "3E898CD2-4594-4089-82DE-1AF80DCDAD3F.jpeg",
+    "sourceSha256": "3ccbd300ab2ceeda5df7c51cefb4bf3510c8001195bf137474b8ff425557492f",
+    "iccSha256": "c56e1685d888f5edb92fe07f2750f387f8fe8e91b32ff8fb0b56bfbbb9458353"
+  }
+]

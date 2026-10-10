@@ -3,13 +3,13 @@
   "templateVersion": "0.1.0",
   "kind": "theme",
   "owner": "tcballard",
-  "repo": "omarchy-theme-template",
-  "slug": "omarchy-theme-starter",
-  "name": "Omarchy Theme Starter",
+  "repo": "omarchy-theme-tokyo-liftoff",
+  "slug": "theme-tokyo-liftoff",
+  "name": "Tokyo Liftoff",
   "author": "Tom Ballard",
-  "id": "io.github.tcballard.theme_starter",
-  "description": "An original semantic palette to develop into your own Omarchy theme.",
+  "id": "io.github.tcballard.theme_tokyo_liftoff",
+  "description": "Tokyo Night colours and three 8K Liftoff skies.",
   "year": "2026",
-  "inspiration": "",
-  "initialized": false
+  "inspiration": "https://github.com/omacom/omarchy/tree/quattro/themes/tokyo-night",
+  "initialized": true
 }
