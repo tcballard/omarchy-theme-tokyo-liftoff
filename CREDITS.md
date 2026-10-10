@@ -28,9 +28,17 @@ Tom confirmed on 30 September 2026 that SpaceX published the source photograph a
 
 The sunset illustration received two contextual crop-enhancement passes, with uncertain reconstructed regions retaining prior pixels. Fine detail is AI reconstructed. Source rights and processing attribution are inherited from [Liftoff CREDITS.md](https://github.com/tcballard/omarchy-theme-liftoff/blob/main/CREDITS.md).
 
+## backgrounds/04-engine-cluster.png
+
+Tokyo Night restyle of the engine-cluster photograph supplied by Tom Ballard on 10 October 2026. The original photographer, source URL and image-specific licence were not supplied. No public-domain or Creative Commons status is asserted; configuration MIT does not grant rights over this photograph.
+
+The full-scene colour edit follows the existing Starship Ascent wallpaper: navy sky, lavender/pink smoke and white-gold engine glow. Its native size is 1536 × 1024. Two contextual enhancement passes (pass 1: 2 of 9 accepted; pass 2: 4 of 4 accepted) use the complete styled context for every target. Rejected crops reached conservative registration bounds; prior pixels are retained. Accepted regions are globally aligned, broadly colour matched and blended through local confidence masks, with stricter checks around engine hardware.
+
+Final export: 8192 × 5461, opaque 8-bit RGB PNG with embedded sRGB profile. Original 3:2 proportions are rounded to the nearest output pixel. The dimensions describe an assembled 8K export; detail is AI reconstructed, not recovered photographic information. [Prompts, native dimensions and processing](docs/engine-cluster-enhancement.md).
+
 ## Distribution
 
-All three PNGs were recompressed losslessly for distribution. Decoded pixels and embedded profiles match their approved masters exactly; hashes and dimensions are recorded in docs/wallpapers.json. The 8K dimensions describe assembled exports, not native 8K generations.
+The first three PNGs were recompressed losslessly for distribution. Decoded pixels and embedded profiles match their approved masters exactly; hashes and dimensions are recorded in docs/wallpapers.json. The 8K dimensions describe assembled exports, not native 8K generations.
 
 MIT covers configuration and documentation only. This is an unofficial community theme, with no SpaceX affiliation or endorsement.
 

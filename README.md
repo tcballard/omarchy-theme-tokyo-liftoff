@@ -4,7 +4,7 @@
 
 Tokyo Night colours. Liftoff skies.
 
-A standalone Omarchy theme combining the complete upstream Tokyo Night palette with three approved Liftoff wallpapers: navy and lavender Starship Ascent, golden night launch, and violet sunset launch.
+A standalone Omarchy theme combining the complete upstream Tokyo Night palette with four approved Liftoff wallpapers: navy and lavender Starship Ascent, golden night launch, violet sunset launch, and the glowing Engine Cluster.
 
 ![Tokyo Liftoff wallpaper gallery](docs/wallpaper-gallery.jpg)
 
@@ -48,6 +48,7 @@ The complete `colors.toml` is copied unchanged from [Omarchy Tokyo Night](https:
 | `01-starship-ascent.png` | Starship Ascent | 8192 × 4667 |
 | `02-golden-liftoff.png` | Golden Liftoff | 8192 × 4053 |
 | `03-liftoff-sunset.png` | Liftoff Sunset | 8192 × 4608 |
+| `04-engine-cluster.png` | Engine Cluster | 8192 × 5461 |
 
 Lossless PNG recompression preserves every decoded pixel and embedded colour profile from the approved masters. Original proportions are preserved. 8K describes the assembled export; AI-reconstructed detail is not recovered photographic information.
 

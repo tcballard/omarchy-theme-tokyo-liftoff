@@ -34,3 +34,9 @@ Live Omarchy desktop, wallpaper-picker interaction and application retinting hav
 The skill's Rust scaffold/check helper could not run because Cargo is unavailable. Equivalent local structure, palette, contrast and image checks were performed with Node, plus the upstream parser and headless staging scripts.
 
 Published to the user-provided tcballard/omarchy-theme-tokyo-liftoff repository. No marketplace listing or live desktop acceptance is claimed. Image-specific rights remain as documented in CREDITS.md; configuration MIT does not license underlying photographs.
+
+## Engine Cluster addition
+
+The fourth wallpaper passes full PNG decode, signature/chunk CRC/IEND checks, exact 8192 × 5461 dimensions, source hash preservation, lossless export and embedded sRGB verification. Full images and representative actual 100% crops were inspected after each of two passes. See engine-cluster-enhancement.md and the media manifest for processing details. Earlier three wallpaper files and the complete upstream palette are unchanged.
+
+The actual upstream headless staging scripts generated 20 configuration outputs with no unresolved template tokens and cycled Starship Ascent → Golden Liftoff → Liftoff Sunset → Engine Cluster → Starship Ascent in an isolated fixture. Repository portable checks and all five existing tests passed; git diff --check passed. Live desktop acceptance remains pending.
