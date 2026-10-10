@@ -1,6 +1,6 @@
 # Project instructions
 
-This is Omarchy Theme Starter, an Omarchy theme project. Read README.md and ARCHITECTURE.md before changes.
+This is Tokyo Liftoff, an Omarchy theme project. Read README.md and ARCHITECTURE.md before changes.
 
 - Run ./tests/run. Follow docs/DEVELOPMENT.md for native checks.
 - Use [build-omarchy-themes](https://github.com/tcballard/build-omarchy-themes) guidance and verify current upstream contracts before relying on version-specific APIs.

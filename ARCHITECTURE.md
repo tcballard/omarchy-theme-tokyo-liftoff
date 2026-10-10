@@ -1,7 +1,7 @@
 # Architecture
 
-`colors.toml` is the source semantic palette. Omarchy derives supported application configuration from it; do not edit generated current-theme output.
+`colors.toml` is the complete upstream Tokyo Night semantic palette. Omarchy generates shell, terminal and supported app configuration from it. The theme supplies three approved full-frame 8K PNGs directly under `backgrounds/`.
 
-The starter includes no shell overrides, install hooks, Lua, wallpapers or preview. Add licensed media under backgrounds and record its provenance in CREDITS.md. Add section-specific shell overrides only after verifying the target Omarchy contract.
+No shell overrides, Lua, install hooks or terminal/editor configuration overrides are included. Documentation, previews and provenance live under `docs/`; the gallery is not a desktop screenshot. The native installer derives directory `theme-tokyo-liftoff` from the repository name.
 
-The portable validator accepts flat quoted hex colours and checks text contrast. It is not a complete TOML parser or registry validator.
+The retained starter checks validate palette syntax, contrast, identity, README links and pinned CI actions. Headless staging and full image verification are recorded in docs/validation.md. Portable checks do not establish live acceptance.
