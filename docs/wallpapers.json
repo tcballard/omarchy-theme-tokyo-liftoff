@@ -1,6 +1,18 @@
 [
   {
-    "file": "backgrounds/01-starship-ascent.png",
+    "file": "backgrounds/01-liftoff-sunset.png",
+    "title": "Liftoff Sunset",
+    "width": 8192,
+    "height": 4608,
+    "bytes": 25978060,
+    "sha256": "0e18ec30ef7c3cd29345626e6509e47ed717f410606aff288c72f0ed6b81313c",
+    "decodedPixelSha256": "b48f4dcef1f55d3d07c3669501b98da601dbc1ccf3b45e3b6174ac01da3b6a0b",
+    "sourceFile": "liftoff-sunset-enhanced-8k.png",
+    "sourceSha256": "849d652f5be9836276feda7c76822179bbbb9634ba581ab2925c470cc566ede2",
+    "iccSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "file": "backgrounds/02-starship-ascent.png",
     "title": "Starship Ascent",
     "width": 8192,
     "height": 4667,
@@ -12,7 +24,7 @@
     "iccSha256": "c56e1685d888f5edb92fe07f2750f387f8fe8e91b32ff8fb0b56bfbbb9458353"
   },
   {
-    "file": "backgrounds/02-golden-liftoff.png",
+    "file": "backgrounds/03-golden-liftoff.png",
     "title": "Golden Liftoff",
     "width": 8192,
     "height": 4053,
@@ -22,18 +34,6 @@
     "sourceFile": "tokyo-night-liftoff-8k.png",
     "sourceSha256": "f21e2c3856b316671c3a30abefb82776b68470ddce1782fccf6338b054636bd7",
     "iccSha256": "c56e1685d888f5edb92fe07f2750f387f8fe8e91b32ff8fb0b56bfbbb9458353"
-  },
-  {
-    "file": "backgrounds/03-liftoff-sunset.png",
-    "title": "Liftoff Sunset",
-    "width": 8192,
-    "height": 4608,
-    "bytes": 25978060,
-    "sha256": "0e18ec30ef7c3cd29345626e6509e47ed717f410606aff288c72f0ed6b81313c",
-    "decodedPixelSha256": "b48f4dcef1f55d3d07c3669501b98da601dbc1ccf3b45e3b6174ac01da3b6a0b",
-    "sourceFile": "liftoff-sunset-enhanced-8k.png",
-    "sourceSha256": "849d652f5be9836276feda7c76822179bbbb9634ba581ab2925c470cc566ede2",
-    "iccSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
   },
   {
     "file": "backgrounds/04-engine-cluster.png",

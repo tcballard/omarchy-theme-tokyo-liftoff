@@ -6,4 +6,4 @@ Install through the native command in README.md. It applies the theme immediatel
 
 Test Git-installed staging, background cycling, shell, lock screen, terminals and supported applications on an actual Omarchy machine. Live acceptance remains pending in docs/ACCEPTANCE.json. To roll back, reselect the previous theme; remove only this theme directory after preserving edits.
 
-No marketplace listing or desktop screenshot is claimed. Retain .template/blueprint as starter provenance.
+The user-supplied XPS screenshot records wallpaper display only; full theme acceptance and marketplace readiness remain unverified. Retain .template/blueprint as starter provenance.
