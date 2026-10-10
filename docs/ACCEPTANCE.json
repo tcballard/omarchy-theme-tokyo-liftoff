@@ -1,13 +1,16 @@
 {
-  "status": "not-run",
+  "status": "partial",
   "input_commit": null,
-  "date": null,
-  "platform": null,
+  "date": "2026-10-10",
+  "platform": "XPS (user confirmed)",
   "omarchy_version": null,
   "commands": [],
-  "results": [],
+  "results": [
+    "Tom confirmed Tokyo Liftoff is applied on his XPS; screenshot shows Liftoff Sunset, Omarchy bar and Familiar dock."
+  ],
   "limitations": [
-    "No live Omarchy desktop acceptance recorded."
+    "Installed Omarchy version and exact installed commit were not supplied.",
+    "Application, dialog and lock-screen checks have not been recorded."
   ],
   "wallpaper_evidence": {
     "date": "2026-10-10",
@@ -18,5 +21,18 @@
     "active_theme": "unverified",
     "input_commit": null,
     "scope": "Wallpaper display only; complete palette, applications, dialogs and lock-screen acceptance pending."
+  },
+  "theme_evidence": {
+    "date": "2026-10-10",
+    "file": "preview.png",
+    "supplied_by": "Tom Ballard",
+    "active_theme": "Tokyo Liftoff (user confirmed)",
+    "input_commit": null,
+    "scope": "Theme applied on XPS; screenshot and user confirmation. Broader application and lock-screen acceptance unrecorded."
+  },
+  "distribution_permission": {
+    "date": "2026-10-10",
+    "confirmed_by": "Tom Ballard",
+    "scope": "Permission to distribute included images and submit theme to official theme store."
   }
 }

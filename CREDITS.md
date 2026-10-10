@@ -50,3 +50,7 @@ Initialized from [tcballard/omarchy-theme-template](https://github.com/tcballard
 ## XPS wallpaper evidence
 
 [User-supplied XPS screenshot](docs/wallpaper-on-xps.jpg), provided by Tom Ballard on 10 October 2026 and preserved byte for byte. It shows Liftoff Sunset displayed on his desktop. The active theme and installed commit are unverified; this does not establish full theme acceptance.
+
+## Author confirmation for marketplace submission — 10 October 2026
+
+Tom Ballard confirmed that `preview.png` shows Tokyo Liftoff applied on his XPS and that he has permission to distribute the included images. He explicitly authorised submission to the official Omarchy theme store. This confirmation covers listing the theme and distributing all four included wallpapers. It does not assign a new licence to the underlying photographs or change the existing source credits. The preview is the supplied screenshot preserved byte for byte.

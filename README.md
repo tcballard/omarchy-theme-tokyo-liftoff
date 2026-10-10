@@ -10,7 +10,9 @@ A standalone Omarchy theme combining the complete upstream Tokyo Night palette w
 
 This gallery shows the included artwork; it is not a desktop screenshot.
 
-[Wallpaper on Tom’s XPS](docs/wallpaper-on-xps.jpg): user-supplied evidence of Liftoff Sunset on the desktop. Full theme acceptance remains pending.
+<p align="center"><img src="preview.png" alt="Tokyo Liftoff applied on Tom’s XPS"></p>
+
+Tokyo Liftoff applied on Tom’s XPS, confirmed by Tom on 10 October 2026. The screenshot shows Liftoff Sunset, the Omarchy bar and Familiar dock. Broader application and lock-screen checks remain unrecorded.
 
 Original palette: [Omarchy Tokyo Night](https://github.com/omacom/omarchy/tree/quattro/themes/tokyo-night). Artwork collection: [Liftoff](https://github.com/tcballard/omarchy-theme-liftoff).
 
